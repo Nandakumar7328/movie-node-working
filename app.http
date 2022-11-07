@@ -1,0 +1,11 @@
+####
+GET http://localhost:3003/movie/
+
+### 
+POST http://localhost:3003/user/update/
+Content-Type: application/json 
+
+{"id":"3",
+"username":"praneetha",
+"password":"praneetha@2021",
+"email":"praneetha@gmail.com"}
